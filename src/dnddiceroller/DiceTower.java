@@ -16,8 +16,8 @@ import java.util.List;
  * @author Seth Frosch
  */
 public class DiceTower {
-  final int PANEL_COUNT = 3;
-  List<Die> dice;
+  private final int PANEL_COUNT = 3;
+  private List<Die> dice;
   private int trayValue; //Accumulator to total value of dice rolls
 
   public DiceTower() {
